@@ -1,0 +1,123 @@
+<!--
+  Selected markup from the production website.
+  Client media and the complete production page are intentionally not included.
+-->
+
+<main id="top">
+  <section class="trial" id="prova">
+    <div class="trial-heading">
+      <p class="kicker" data-trial-week>21–26 settembre 2026</p>
+      <p class="trial-title">Una settimana per trovare<br>la tua passione.</p>
+    </div>
+    <p class="trial-copy">
+      Prove gratuite su prenotazione. Scegli il corso, controlla l’orario
+      e prenota il tuo posto su WhatsApp.
+    </p>
+    <a class="pill light" href="#orari">
+      Trova e prenota la tua prova <span>→</span>
+    </a>
+  </section>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="kicker">Danza · musical · arte · Piacenza</p>
+      <h1>Il tuo spazio<br>per <em>esprimerti.</em></h1>
+      <span class="title-line" aria-hidden="true"></span>
+      <p>
+        Corsi per bambini, ragazzi e adulti. Per iniziare, crescere
+        e vivere il movimento insieme.
+      </p>
+      <div class="hero-actions">
+        <a class="pill" href="#corsi">Scopri i corsi <span>→</span></a>
+        <a class="plain-link" href="#orari">Guarda gli orari</a>
+      </div>
+    </div>
+
+    <div class="hero-gallery">
+      <div class="social-links hero-socials" data-socials></div>
+      <div class="gallery-track">
+        <figure class="portrait portrait-one">
+          <img src="assets/images/sections/hero-classica.jpeg"
+               alt="Allieva di danza classica"
+               fetchpriority="high"
+               decoding="async">
+        </figure>
+        <figure class="portrait portrait-two">
+          <img src="assets/images/sections/hero-latino.jpeg"
+               alt="Coppia durante un ballo latino"
+               loading="lazy"
+               decoding="async">
+        </figure>
+        <figure class="portrait portrait-three">
+          <img src="assets/images/sections/hero-reggaeton.jpeg"
+               alt="Allievi durante un corso di reggaeton"
+               loading="lazy"
+               decoding="async">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="courses section" id="corsi">
+    <header class="section-heading">
+      <div>
+        <p class="kicker coral">Scegli il tuo percorso</p>
+        <h2>C’è un corso<br><em>per ogni età.</em></h2>
+      </div>
+      <p>
+        Non serve esperienza: parti da ciò che ti incuriosisce
+        e trova il percorso più adatto a te.
+      </p>
+    </header>
+
+    <div class="course-filters"
+         id="course-filters"
+         role="group"
+         aria-label="Filtra i corsi per categoria"></div>
+
+    <div class="course-browser">
+      <div class="course-cards"
+           id="course-cards"
+           aria-live="polite"></div>
+      <article class="course-detail"
+               id="course-detail"
+               aria-live="polite"
+               aria-atomic="true"></article>
+    </div>
+  </section>
+
+  <section class="schedule section" id="orari">
+    <header class="schedule-intro">
+      <p class="kicker coral">Giorni e orari</p>
+      <h2>Trova il momento <em>giusto per te.</em></h2>
+      <p>
+        Seleziona un corso, poi scegli l’orario e prenota
+        la tua prova gratuita su WhatsApp.
+      </p>
+    </header>
+
+    <div class="schedule-content revised">
+      <div class="schedule-picker">
+        <p class="kicker">Scegli l’attività</p>
+        <div class="schedule-buttons"
+             id="schedule-buttons"
+             role="group"
+             aria-label="Seleziona un corso per vedere giorno e orario"></div>
+        <a class="planning-download"
+           href="assets/documents/planning-la-scuola-2026-27.pdf"
+           download>
+          Scarica il planning completo <span>↓</span>
+        </a>
+      </div>
+
+      <article class="schedule-summary schedule-list" aria-live="polite">
+        <p class="kicker">Giorni e orari</p>
+        <h3 id="schedule-title"></h3>
+        <div class="schedule-levels" id="schedule-levels"></div>
+        <div class="schedule-booking"
+             id="schedule-booking"
+             aria-live="polite"></div>
+      </article>
+    </div>
+  </section>
+</main>
