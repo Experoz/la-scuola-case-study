@@ -50,13 +50,13 @@ The project covered the full path from interface implementation to production: r
 
 ## Tech stack
 
+**Current production website**
+
 - HTML5
 - CSS3
 - Bootstrap 5.3.3
 - Vanilla JavaScript
 - Git / GitHub
-
-The production version intentionally does not require Node.js, npm, a JavaScript framework, PHP or a database.
 
 ## Key implementation challenges
 
@@ -91,11 +91,10 @@ Together, these samples show how **HTML structure, CSS architecture and JavaScri
 
 These files are presented as implementation samples. The complete production source, content data and client assets are intentionally not published here.
 
+## Next development phase
+
+The next planned evolution is an administration area for managing content such as schedules, courses, teachers, banners and visitor statistics. This phase will introduce server-side and persistent-data functionality while keeping the current public website as the production frontend.
+
 ## Production and portfolio separation
 
 The real website is maintained in a separate private repository. This public repository exists specifically to document the project and demonstrate selected technical work without redistributing the complete production codebase or the client's full media library.
-
-## Status
-
-**Production:** live  
-**Website:** https://lascuolapiacenza.it/
