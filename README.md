@@ -78,11 +78,16 @@ Google Maps is not loaded automatically before consent. Consent is persisted loc
 
 ## Selected code samples
 
-The `code-samples/` directory contains selected JavaScript modules taken from the production project:
+The `code-samples/` directory contains representative excerpts from the production project across the main frontend layers:
 
+- `interface.html` — semantic structure for the hero, course catalogue and interactive schedule sections;
+- `style-sample.css` — theme variables, desktop layout, reusable UI components and major page sections;
+- `responsive-sample.css` — breakpoint strategy, mobile navigation and layout adaptations;
 - `courses.js` — filtering, selection and dynamic rendering of course cards;
 - `schedule.js` — schedule grouping, filtering and WhatsApp booking logic;
 - `map-consent.js` — external-content consent management and deferred Google Maps loading.
+
+Together, these samples show how **HTML structure, CSS architecture and JavaScript behaviour** work as separate layers in the production implementation.
 
 These files are presented as implementation samples. The complete production source, content data and client assets are intentionally not published here.
 
