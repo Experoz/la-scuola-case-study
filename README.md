@@ -12,6 +12,27 @@ The goal was to turn a large and varied course offering into a clear, modern and
 
 The project covered the full path from interface implementation to production: responsive development, content organisation, interactive components, privacy handling, SEO setup, domain configuration and deployment.
 
+## Screenshots
+
+### Homepage — desktop
+
+![La Scuola Piacenza homepage](screenshots/home-desktop.webp)
+
+### Course catalogue — desktop
+
+![Interactive course catalogue](screenshots/courses-desktop.webp)
+
+### Weekly schedule — desktop
+
+![Interactive weekly schedule](screenshots/planning-desktop.webp)
+
+### Mobile experience
+
+<p align="center">
+  <img src="screenshots/home-mobile.webp" alt="Responsive mobile homepage" width="45%" />
+  <img src="screenshots/planning-mobile.webp" alt="Mobile schedule interface" width="45%" />
+</p>
+
 ## What I worked on
 
 - responsive interface for desktop, tablet and mobile;
@@ -64,21 +85,6 @@ The `code-samples/` directory contains selected JavaScript modules taken from th
 - `map-consent.js` — external-content consent management and deferred Google Maps loading.
 
 These files are presented as implementation samples. The complete production source, content data and client assets are intentionally not published here.
-
-## Screenshots
-
-Screenshots of the live production website will be included in this case study without publishing the complete client asset library.
-
-### Desktop
-
-- Homepage / visual identity
-- Interactive course catalogue
-- Interactive weekly schedule
-
-### Mobile
-
-- Responsive homepage
-- Mobile schedule interaction
 
 ## Production and portfolio separation
 
